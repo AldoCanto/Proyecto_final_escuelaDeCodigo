@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(54, 53, 53);
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: contrast(80%);
+    filter: opacity(60%);
+}
+a{
+    color: white;
+    text-decoration: none;   
+    font-weight: bold;
+}
+.burguer_menu img{
+    position: relative;
+    left: 1350px;
+    top: 40px;
+    width: 30px;
+}
+.titulo{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    font-size: 25px;
+}
+.texto1{
+    position: relative;
+    font-size: 70px;
+    font-weight: bold;
+    top: 250px;
+    left: 80px;
+}
+.texto2{
+    position: relative;
+    font-size: 55px;
+    font-weight: bold;
+    left: 80px;
+    top: 240px;
+}
+.texto3{
+    position: relative;
+    left: 80px;
+    top: 255px;
+    font-size: 18px;
+}
+.boton{
+    position: relative;
+    left: 80px;
+    top: 280px;
+    padding: 10px 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+footer a img{
+    position: relative;
+    color: white;
+    top: 400px;
+    width: 20px;
+    filter: invert();
+    margin: 15px;
+}
+footer a:nth-child(2){
+    position: relative;
+    left: 85px;
+}
+footer a:nth-child(3){
+    position: relative;
+    left: 90px;
+}
+footer a:nth-child(1){
+    position: relative;
+    left: 80px;
+}
+footer a .facebook{
+    width: 13px;
+}
